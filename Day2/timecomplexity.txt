@@ -1,0 +1,215 @@
+﻿Time Complexity
+
+
+Q1.def f()
+        ans = 0
+        for i = 1 to n:
+                for j = 1 to log(i):
+                        ans += 1
+        print(ans)
+
+
+Ans. O(nlog(n))
+
+
+Q2.def f():
+        a = 0
+        for i = 1 to n:
+                a += i;
+        b = 0
+        for i = 1 to m:
+                b += i;
+
+
+Ans. O(n+m)
+
+
+Q3.def f():
+        a = 0
+        for i = 1 to n:
+                a += random.randint();                        
+                b = 0
+                for j = 1 to m:
+                        b += random.randint();
+
+
+Ans. O(n*m)
+
+
+Q4.def f():
+        int a[n][n]
+        // Finding sum of elements of a matrix that are above or on the diagonal.
+        sum = 0
+        for i = 1 to n:
+                for j = i to n:
+                        sum += a[i][j]
+        print(sum)
+
+
+Ans.O(n^2)
+Q5.def f():
+        int a[n][n]
+        sum = 0
+        // Finding sum of elements of a matrix that are strictly above the diagonal.
+        for i = 1 to n:
+                for j = i to n:
+                        sum += a[i][j]
+        print(sum)
+        
+        for i = 1 to n:
+                sum -= a[i][i]
+
+
+Ans. O(n^2)
+
+
+Q6.def f():
+        ans = 0
+        for i = 1 to n:
+                for j = n to i:
+                        ans += (i * j)
+        print(ans)
+
+
+Ans. O(n^2)
+
+
+Q7.def f():
+        int a[N + 1][M + 1][K + 1]
+        sum = 0
+        for i = 1 to N:
+                for j = i to M:
+                        for k = j to K:
+                                sum += a[i][j]
+        print(sum)
+
+
+Ans. O(n*m*k)
+
+
+Q8.def f(n):
+        ans = 0
+        while (n > 0):
+                ans += n
+                n /= 2;
+        print(ans)
+
+
+Ans. O(logn)
+Q9.// Find the sum of digits of a number in its decimal representation.
+def f(n):
+        ans = 0
+        while (n > 0):
+                ans += n % 10
+                n /= 10;
+        print(ans)
+
+
+Ans.O(log₁₀n)
+
+
+Q10.def f():
+        ans = 0
+        for (i = n; i >= 1; i /= 2):
+                for j = m to i:
+                        ans += (i * j)
+        print(ans)
+
+
+Ans. O(mlogn)
+Q11.def f():
+        ans = 0
+        for (i = n; i >= 1; i /= 2):
+                for (j = 1; j <= m; j *= 2)
+                        ans += (i * j)
+        print(ans)
+
+
+Ans. O(logmlogn)
+Q12.// Binary searching in sorted array for finding whether an element exists or not.
+def exists(a, x):
+        // Check whether the number x exists in the array a.
+        lo = 0, hi = len(a) - 1
+        while (lo <= hi):
+                mid = (lo + hi) / 2
+                if (a[mid] == x): return x;
+                else if (a[mid] > x): hi = mid - 1;
+                else lo = mid + 1;
+        return -1; // Not found.
+
+
+Ans. O(logn)
+Q13.// Finding fibonacci numbers.
+def f(n):
+        if n == 0 or n == 1: return 1
+        return f(n - 1) + f(n - 2)
+
+
+Ans. O(2ⁿ)
+Q14.def f(a):
+        n = len(a)
+        j = 0
+        for i = 0 to n - 1:
+                while (j < n and a[i] < a[j]):
+                        j += 1
+
+
+Ans.O(n)
+
+
+Q15.int function(int n)
+{
+    int i = 0;
+    if (n <= 0)
+    {
+       return 0;
+    }
+    else
+    {
+        i = random(n - 1);
+        printf("this\n");
+        return function(i) + function(n - 1 - i);
+    }
+}
+Ans. O(n)
+
+
+Q16.Which of the following are equivalent to O(N) and why?
+1. O(N + P), where P < N/9
+2. 0(9N-k)
+3. O(N + 8log N)
+4. O(N + M2)
+Ans. 1,2 and 3
+ 
+Q17.int isPrime(int n)
+{
+    if (n == 1)
+    {
+        return 0;
+    }
+    for (int i = 2; i * i < n; i++)
+    {
+        if (n % i == 0)
+        {
+            return 0;
+        }
+    }
+    return 1;
+}
+Ans. O(⇃n)
+
+
+Q18.int isPrime(int n)
+{
+    for (int i = 2; i * i < 10000; i++)
+    {
+        if (n % i == 0)
+        {
+            return 0;
+        }
+    }
+ 
+    return 1;
+}
+isPrime();
+Ans. O(1)
