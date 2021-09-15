@@ -7,3 +7,7 @@ https://www.codechef.com/CCSTART2 <br><br>
 DAY 2: <br>
 Time complexity (asymptotic notations)<br>
 Space complexity
+
+DAY 3: <br>
+Revised pointers in cpp <br>
+Implemented array as ADT
