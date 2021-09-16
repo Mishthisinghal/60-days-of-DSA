@@ -11,3 +11,6 @@ Space complexity
 DAY 3: <br>
 Revised pointers in cpp <br>
 Implemented array as ADT
+
+DAY 4: <br>
+Implemented linear and binary search
