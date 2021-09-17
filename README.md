@@ -14,3 +14,6 @@ Implemented array as ADT
 
 DAY 4: <br>
 Implemented linear and binary search
+
+DAY 5: <br>
+Implemented bubble sort,selection sort and insertion sort
