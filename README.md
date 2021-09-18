@@ -6,14 +6,17 @@ https://www.codechef.com/CCSTART2 <br><br>
 
 DAY 2: <br>
 Time complexity (asymptotic notations)<br>
-Space complexity
+Space complexity<br><br>
 
 DAY 3: <br>
 Revised pointers in cpp <br>
-Implemented array as ADT
+Implemented array as ADT<br><br>
 
 DAY 4: <br>
-Implemented linear and binary search
+Implemented linear and binary search<br><br>
 
 DAY 5: <br>
-Implemented bubble sort,selection sort and insertion sort
+Implemented bubble sort,selection sort and insertion sort<br><br>
+
+DAY 6:
+Solved questions of 1D and 2d array<br><br>
