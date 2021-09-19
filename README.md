@@ -18,5 +18,9 @@ Implemented linear and binary search<br><br>
 DAY 5: <br>
 Implemented bubble sort,selection sort and insertion sort<br><br>
 
-DAY 6:
+DAY 6:<br>
 Solved questions of 1D and 2d array<br><br>
+
+DAY 7:<br>
+Divide and Conquer <br>
+Recursive time complexity(master method)<br><br>
