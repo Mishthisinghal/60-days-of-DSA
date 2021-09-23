@@ -31,3 +31,7 @@ Implemented quicksort and mergesort <br><br>
 DAY 9:<br>
 Solved problems on recursion<br><br>
 
+DAY 10&11:<br>
+Implemented basic operations on linked list-traversal,insertion,deletion <br><br>
+
+
