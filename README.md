@@ -34,4 +34,6 @@ Solved problems on recursion<br><br>
 DAY 10&11:<br>
 Implemented basic operations on linked list-traversal,insertion,deletion <br><br>
 
+DAY 12:<br>
+Implemented more operations on linked list-merging,reverse list etc<br><br>
 
