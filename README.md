@@ -40,8 +40,8 @@ Implemented more operations on linked list-merging,reverse list etc<br><br>
 DAY 13:<br>
 Revised concepts of singly linked list and solved some problems on leetcode<br><br>
 
-DAY 14:
-Revised circular and doubly linked list
+DAY 14:<br>
+Revised circular and doubly linked list<br><br>
 
-DAY 15:
-Solved some problems of array and linked list
+DAY 15:<br>
+Solved some problems of array and linked list<br><br>
