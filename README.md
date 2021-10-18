@@ -48,3 +48,6 @@ Solved some problems of array and linked list<br><br>
 
 DAY 16:<br>
 Studied and implemented stack using array<br><br>
+
+DAY 17:<br>
+Studied and implemented stack using linked list<br><br>
