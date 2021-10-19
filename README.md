@@ -51,3 +51,6 @@ Studied and implemented stack using array<br><br>
 
 DAY 17:<br>
 Studied and implemented stack using linked list<br><br>
+
+DAY 18:<br>
+Studied and implemented applications of stack<br><br>
