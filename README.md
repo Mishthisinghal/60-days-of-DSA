@@ -57,3 +57,6 @@ Studied and implemented applications of stack<br><br>
 
 DAY 19:<br>
 Studied and implemented queue using array<br><br>
+
+DAY 20:<br>
+Studied and implemented inbuilt queue and queue using linked list<br><br>
