@@ -61,3 +61,9 @@ Studied and implemented queue using array<br><br>
 DAY 20:<br>
 Studied and implemented inbuilt queue and queue using linked list<br><br>
 
+DAY 21:<br>
+Solved some problems using two pointer technique<br><br>
+
+DAY 22:<br>
+Solved some problems of stack<br><br>
+
